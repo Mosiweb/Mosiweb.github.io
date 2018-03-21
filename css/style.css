@@ -1,0 +1,220 @@
+/* Global Styling */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    font-family:monospace
+    }
+
+
+/* Header Section */
+
+header img {
+    width: 20%;
+    height: auto;
+   }
+
+header nav {
+    list-style-type: none;
+    float: right;
+    display: inline-block;
+    padding: 0;
+    }
+
+header {
+    background-color: white;
+    padding: 2%;
+   }
+
+header ul {
+    list-style: none;
+    padding: 0;
+    float: right
+    }
+
+header li {
+    display: inline;    
+    }
+
+/* Side 1 Home page */
+/* Banner Section */
+
+.frontbanner {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/buchara-jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+.frontbanner h1 {
+    font-size: 3.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+/* Aside Section */
+
+aside {
+    float: left;
+    width: 70%;
+    margin-left: 30px;
+    }
+
+@media only screen and (min-width: 768px) {
+    aside {
+    width:80%;
+    } 
+.kulturmøder {
+    margin-right: 52px !important;
+    margin-left: 52px !important;
+}
+.frontbanner {
+    height: 600px;
+}
+}
+@media only screen and (min-width: 1024px) {
+.kulturmøder {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 50%; 
+}
+}
+
+/* Side 3 Book Rejse */
+/* Banner Section */
+
+#banner {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/baggrund.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+#banner h1 {
+  font-size: 3.75rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+ }
+
+/* Rejsetilbud Section*/
+
+.rejsetilbud-book {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rejsetilbud-book img {
+    width: 100%;
+    max-width: 347px;
+}
+.rejsetilbud-book-kort {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rejsetilbud img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 472px;
+    max-height: 215px;
+    display: block;
+    position: relative !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.kulturmøder img {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 157px;
+    display: block;
+    position: relative !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Page Images */
+
+.forside-billeder {
+    margin-top: 72px;
+    display: grid;
+}
+.image-container img {
+    display: block;
+    width: 60%;
+    height: 60%;
+    max-width: 125px !important;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/* Footer */ 
+    
+footer {
+  padding: 3rem 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  color: #999999;
+  text-align: center;
+ }
+
+/* Side 2 Horisont Destinationer */
+/* Banner Setion */
+
+.banner {
+   height: 400px;
+    width: 100%;
+    background-image: url(../images/packpacker.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+.banner h1 {
+  font-size: 3.75rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+ }
+
+.content img {
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+.bottom-p {
+    margin-bottom: 25%
+}
+
+.kulturmøder {
+    text-align: center;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+ 
